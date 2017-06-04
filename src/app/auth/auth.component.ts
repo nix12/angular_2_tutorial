@@ -33,10 +33,10 @@ export class AuthComponent implements OnInit {
 		})
 	}
 
-	// submitForm() {
-	// 	this.isSubmitting = true
+	submitForm() {
+		this.isSubmitting = true
 
-	// 	let credentials = this.authForm.value
-	// 	console.log(credentials)
-	// }
+		let credentials = this.authForm.value
+		console.log(credentials)
+	}
 }
